@@ -1,0 +1,40 @@
+{
+    "general": {
+        "app_name": "TX1 Win Midi Controller",
+        "version": "1.0"
+    },
+    
+    "paths": {
+        "db_path": "C:/Users/USERNAME/Documents/IK Multimedia/TONEX/Library.db", 
+        "skin_path" : "assets/"
+    },
+
+
+    "midi": {
+        "_midi_channel": 1,
+        "midi_channel": "all"
+    },
+    
+    "interface": {
+        "window_title": "TX1 Win Midi Controller",
+        "geometry": "1920x1080",
+        "_geometry": "1600x640",
+        "_window_state": "zoomed",
+        "window_state": "normal",
+        "fullscreen" : 0,
+        "width": 800,
+        "height": 600,
+        "background_color": "#1E1E1E",
+        "button_color": "#BFBFBF",
+        "button_markupcolor": "light green",
+        "button_fontsize": 16,
+        "button_font": "Arial",
+        "button_fontcolor": "black",
+        "preset_fontsize": 32,
+        "preset_font": "Arial",
+        "preset_fontcolor": "white",
+        "preset_wrap_length": 500,
+        "image_max_width": 700,
+        "image_max_height": 500        
+    }
+}

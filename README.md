@@ -15,7 +15,7 @@ https://youtu.be/j0I5G5-CXfg
 - Capturing of midi PC messages to switch presets (PC 1 = Preset 1, PC 2 = Preset 2, etc.)
 - Screen displays the name, number, button, and amp skin of the current preset.
 - Retrieval of skin-name from library.db upon preset selection.
-- Customization of paths, interface, and midi via config.json. 
+- Customization of paths, interface, and midi via config.json
 - User can customize amp skins pictures in "skin_path"
 
 ## USB-communication (Slot C only)
@@ -43,7 +43,7 @@ https://youtu.be/j0I5G5-CXfg
 ## Usage
 - Connect your TonexOne with a USB-C cable to your Windows PC
 - Connect your midi controller to your Windows PC
-- Adjust the config.json (i.e. the paths to library.db)
+- Place your config.json in the program main directory, and adjust as needed (i.e. the paths to library.db)
 - Shut your Tonex App
 - Run TX1 Win Midi Controller
 - Enjoy!
@@ -69,3 +69,6 @@ Donations help fund the purchase of new equipment to use in further product deve
 [Donate via Paypal](https://www.paypal.com/ncp/payment/V46QQ8EMUJDVW)
 <br><br>
 ![QR code](https://github.com/user-attachments/assets/)
+
+    
+ 
