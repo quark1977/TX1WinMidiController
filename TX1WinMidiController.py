@@ -120,7 +120,7 @@ status_bar.pack(side=tk.LEFT, fill=tk.X, expand=True)
 status_bar.config(bg=background_color, fg=preset_fontcolor, bd=0)
 status_bar.update_idletasks() 
 redirected_stdout = RedirectedStdout(status_bar, buffer_size=3)
-#sys.stdout = redirected_stdout #redirect all print to status bar
+sys.stdout = redirected_stdout #redirect all print to status bar
 #sys.stderr = redirected_stdout #redirect all error to status bar
 print("Switch to TonexOne stomp mode to use the presets you selected here.")
 root.after(5000, redirected_stdout.clear)  # Correctly call the clear method
